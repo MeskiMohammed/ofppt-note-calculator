@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="min-h-screen p-4 bg-slate-900 text-white flex flex-col gap-4">
-      <p className="w-full text-center mb-4 text-xl font-bold">OFPPT note calculator</p>
+      <p className="w-full text-center mb-4 text-xl font-bold">OFPPT note calculator <span className="text-[8px]">made by WHISKY</span></p>
       <p className="w-full text-center mb-4 border-b">1ere annee</p>
 
       <div>
