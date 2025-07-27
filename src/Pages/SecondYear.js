@@ -3,7 +3,7 @@ import Part from "../Part";
 import noteContext from "../NoteContext";
 
 export default function FirstYear() {
-    const {L,R,N,setL,setR,setN}=useContext(noteContext)
+  const { L, R, N, setL, setR, setN } = useContext(noteContext);
   return (
     <>
       <p className="w-full text-center mb-4 border-b">2eme annee</p>
