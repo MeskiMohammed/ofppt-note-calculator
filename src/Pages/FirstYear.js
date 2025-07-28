@@ -17,7 +17,7 @@ export default function FirstYear() {
 
 			<div className="flex justify-center">
 				<p
-					className={`py-4 px-8 rounded text-white text-xl font-bold ${(L + R) / 4 < 10 ? "bg-red-600" : "bg-green-600"
+					className={`py-4 px-8 rounded text-white text-xl font-bold ${res < 10 ? "bg-red-600" : res >= 10 ? "bg-green-600" : "bg-gray-600"
 						}`}
 				>
 					Total : {res?.toFixed(2)}
