@@ -36,7 +36,7 @@ export default function Part({ notes, setNotes, type }) {
 					className="bg-cyan-600 px-4 py-2 rounded"
 					onClick={() => setItems(items + 1)}
 				>
-					Add a {type} module
+					Ajouter un Module {type}
 				</button>
 			</div>
 		</div>
